@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+/* body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 25px;
+  /* max-width: 400px;
+  min-width: 400px;
+  background-color: #dfe6e9;
+  text-align: center; */
+/* } */
+
+.header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.footer p {
+  color: #ccc;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.notee {
+  text-align: center;
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 50%;
+
+
+}
+.notee input{
+  padding: 10px 0;
+margin: 15px 0;
+  display:block;
+  /* border-width:0px; */
+  border:none;
+
+
+}
+.notee button{
+  text-align: center;
+  display: block;
+  padding: 10px 0;
+margin: 15px 0;
+}
